@@ -7,7 +7,8 @@
 6. git reset --hard xxxxxxx  回退到版本xxxxxx为版本号
 7. git reset --hard HEAD^  回退到上一个版本 ^的个数代表往上追溯的个数 如上上个版本就两个^
 8. git reflog 查看命令历史 
-
+9. git checkout -b dev //git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：git branch dev 和git checkout dev
+10.git branch命令会列出所有分支，当前分支前面会标一个*号
 
 
 1.git clone克隆一个本地库：
